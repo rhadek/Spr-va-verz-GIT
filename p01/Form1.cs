@@ -16,5 +16,12 @@ namespace p01
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int c1 = Convert.ToInt32(textBox1.Text);
+            int c2 = Convert.ToInt32(textBox2.Text);
+            label1.Text = (c1 + c2).ToString();
+        }
     }
 }
